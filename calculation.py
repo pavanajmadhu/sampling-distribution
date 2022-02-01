@@ -6,7 +6,7 @@ import statistics
 import plotly.graph_objects as go
 
 df=pd.read_csv("medium_data.csv")
-data=df["title"].tolist()
+data=df["reading_time"].tolist()
 
 
 populationmean=statistics.mean(data)
